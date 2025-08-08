@@ -69,7 +69,7 @@ const AdminAddProducts = () => {
 
   return (
     <>
-      <div className="container mx-auto my-10 px-4 mt-30 max-w-3xl">
+      <div className="container mx-auto my-10 px-4  max-w-3xl">
         <div className="bg-white shadow-lg rounded-xl overflow-hidden">
           <div className="bg-blue-600 text-white text-center text-xl font-bold py-4">
             Insert Product Record

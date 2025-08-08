@@ -10,19 +10,18 @@ import AdminUsers from "./AdminUsers";
 
 const AdminPanel = () => {
   return (
-    <>
+     <>
       <AdminHeader />
-      <div>
-        <div>
-          <AdminSidebar />
-        </div>
-        <div className="mt-15 ml-60">
-           <Routes>
+      <div className="flex">
+        <AdminSidebar />
+        <div className="mt-15 ml-60 flex-1  ">
+          <Routes>
+            <Route index element={<AdminDashboard />} />
             <Route path="dashboard" element={<AdminDashboard />} />
             <Route path="users" element={<AdminUsers />} />
             <Route path="products" element={<AdminProducts />} />
-            <Route path="addproduct" element={<AdminAddProducts/>}/>
-            <Route path="cart-details" element={<AdminCartDetails/>}/>
+            <Route path="addproduct" element={<AdminAddProducts />} />
+            <Route path="cart-details" element={<AdminCartDetails />} />
           </Routes>
         </div>
       </div>

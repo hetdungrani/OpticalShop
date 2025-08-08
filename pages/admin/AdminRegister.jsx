@@ -46,7 +46,7 @@ function AdminRegister() {
   return (
     <div
       className="min-h-screen flex items-center justify-center bg-cover bg-center"
-      style={{ backgroundImage: "url('./images/regbackgroung.jpg')" }}
+      style={{ backgroundImage: "url('assets/img/regbackgroung.jpg')" }}
     >
       <div className="bg-white bg-opacity-90 rounded-xl shadow-lg p-8 max-w-2xl w-full">
         <h1 className="text-3xl font-bold text-center text-blue-900 mb-6">

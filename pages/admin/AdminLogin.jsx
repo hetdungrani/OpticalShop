@@ -33,7 +33,7 @@ function AdminLogin() {
   return (
     <div
       className="min-h-screen flex items-center justify-center bg-cover bg-center"
-      style={{ backgroundImage: "url('./images/regbackgroung.jpg')" }}
+      style={{ backgroundImage: "url('assets/img/regbackgroung.jpg')" }}
     >
       <div className="bg-white bg-opacity-90 rounded-xl shadow-lg p-8 max-w-md w-full">
         <h1 className="text-3xl font-bold text-center text-blue-900 mb-6">
@@ -73,13 +73,13 @@ function AdminLogin() {
           >
             Login
           </button>
-
+{/* 
           <p className="text-center text-blue-900 mt-4">
             Don't have an account?{" "}
             <a href="/admin-register" className="underline">
               Signup
             </a>
-          </p>
+          </p> */}
         </form>
       </div>
     </div>
